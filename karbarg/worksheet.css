@@ -1,0 +1,7 @@
+.wfraction{display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;margin:0 .35em;line-height:1.2;min-width:1.3em;direction:ltr;font-size:1.08em}
+.wfraction b{border-bottom:2px solid currentColor;width:100%;text-align:center;padding:0 .15em .12em}.wfraction i{font-style:normal;padding-top:.12em}
+.fraction-pair{display:inline-block;white-space:nowrap}
+.fraction-model{background:#edf3ff;padding:18px;border-radius:16px;max-width:650px;margin:22px auto;font-size:18px;font-weight:400}
+.bar-row{display:flex;align-items:center;gap:14px;margin:12px 0;direction:ltr}.bar-row>span{min-width:45px}.fraction-bar{display:grid;grid-template-columns:repeat(var(--parts),1fr);width:100%;height:48px;border:2px solid #071d34;background:white;direction:ltr}.fraction-bar>span+span{border-left:2px solid #071d34}.fraction-bar .filled{background:#235ed8}.fraction-model small{display:block;text-align:center;font-size:14px}.opt .tx{line-height:1.9}
+@media(max-width:500px){.fraction-model{padding:10px}.fraction-bar{height:40px}.bar-row{gap:5px}.fraction-model small{font-size:12px}}
+@media(max-width:1000px){.topbar{flex-wrap:wrap}.topbar .map{order:3;flex-basis:100%}.topbar .tools{flex-wrap:wrap;min-width:0;max-width:100%;margin-inline-start:auto}.topbar .brand{max-width:100%}.worksheet .stage{min-width:0}.worksheet .slide{min-width:0;width:100%}}

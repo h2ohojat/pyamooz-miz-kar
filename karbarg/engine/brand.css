@@ -1,0 +1,81 @@
+/* ================= امضای برند (کارت پایان درس، پنجرهٔ 🎓، صفحهٔ شروع) ================= */
+.brandcard{position:relative;isolation:isolate;overflow:hidden;margin:18px 0 22px;border-radius:26px;padding:clamp(18px,3.2vw,30px);color:#fff;
+  background:radial-gradient(120% 140% at 100% 0,#123e7a 0,rgba(18,62,122,0) 55%),linear-gradient(135deg,#071d34 0%,#0b2a4d 48%,#10224a 100%);
+  box-shadow:0 1px 0 rgba(255,255,255,.08) inset,0 22px 50px -18px rgba(7,29,52,.75),0 0 0 1px rgba(241,204,89,.18);
+  animation:bcIn .9s cubic-bezier(.2,.9,.25,1) both}
+.brandcard::before{content:"";position:absolute;inset:0;border-radius:inherit;padding:1.5px;z-index:-1;pointer-events:none;
+  background:conic-gradient(from var(--bang,0deg),rgba(241,204,89,.9),rgba(79,157,255,.15),rgba(155,108,240,.8),rgba(217,95,174,.2),rgba(241,204,89,.9));
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:bcSpin 7s linear infinite}
+@property --bang{syntax:"<angle>";initial-value:0deg;inherits:false}
+.brandcard .borb{position:absolute;border-radius:50%;filter:blur(38px);z-index:-1;pointer-events:none;opacity:.55}
+.brandcard .o1{width:260px;height:260px;background:#1f5fd6;top:-90px;left:-70px;animation:bcOrb 11s ease-in-out infinite}
+.brandcard .o2{width:220px;height:220px;background:#9b6cf0;bottom:-110px;right:18%;opacity:.4;animation:bcOrb 13s ease-in-out -4s infinite reverse}
+.brandcard .bshine{position:absolute;top:-50%;bottom:-50%;width:38%;left:-60%;z-index:0;pointer-events:none;transform:rotate(18deg);
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.1),transparent);animation:bcShine 6.5s ease-in-out 1.2s infinite}
+.brandcard .bspark{position:absolute;inset:0;pointer-events:none;z-index:0}
+.brandcard .bspark i{position:absolute;width:6px;height:6px;border-radius:50%;background:#f1cc59;box-shadow:0 0 10px 2px rgba(241,204,89,.7);opacity:0;animation:bcTw 3.6s ease-in-out infinite}
+.brandcard .bspark i:nth-child(1){top:14%;right:44%;animation-delay:.2s}
+.brandcard .bspark i:nth-child(2){top:70%;right:6%;animation-delay:1.1s;width:4px;height:4px}
+.brandcard .bspark i:nth-child(3){top:24%;left:30%;animation-delay:2s;width:3px;height:3px}
+.brandcard .bspark i:nth-child(4){bottom:18%;left:44%;animation-delay:2.7s}
+.brandcard .bspark i:nth-child(5){top:8%;left:8%;animation-delay:1.6s;width:4px;height:4px}
+.brandcard .bspark i:nth-child(6){bottom:30%;right:36%;animation-delay:.7s;width:3px;height:3px}
+.brandcard .bcin{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:clamp(14px,3vw,30px);align-items:center}
+.brandcard .bkick{display:inline-flex;align-items:center;gap:8px;font-size:.8em;font-weight:800;color:#f1cc59;background:rgba(241,204,89,.1);border:1px solid rgba(241,204,89,.35);
+  padding:3px 12px 3px 14px;border-radius:99px;animation:bcUp .6s .15s both}
+.brandcard .bkick .dot{width:8px;height:8px;border-radius:50%;background:#f1cc59;animation:bcPing 2s ease-out infinite}
+.brandcard .bct{margin:.45em 0 .25em;font-size:clamp(1.25em,2.6vw,1.65em);line-height:1.5;font-weight:900;
+  background:linear-gradient(90deg,#fff 0%,#fff 40%,#f1cc59 50%,#fff 60%,#fff 100%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:bcUp .6s .25s both,bcText 5s ease-in-out 1.4s infinite}
+.brandcard .bcp{margin:0 0 .7em;color:rgba(255,255,255,.82);font-size:.95em;line-height:1.9;animation:bcUp .6s .32s both}
+.brandcard .bperks{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.brandcard .bperks span{font-size:.8em;padding:3px 11px;border-radius:99px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);animation:bcUp .5s var(--d,.4s) both}
+.brandcard .bclinks{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr))}
+.brandcard .bcl{position:relative;display:flex;align-items:center;gap:10px;min-height:56px;padding:9px 12px;border-radius:16px;color:#fff;text-decoration:none;overflow:hidden;
+  background:linear-gradient(180deg,rgba(255,255,255,.1),rgba(255,255,255,.04));border:1px solid rgba(255,255,255,.16);
+  transition:transform .25s cubic-bezier(.3,.8,.4,1),background .25s,border-color .25s,box-shadow .25s;animation:bcUp .55s var(--d,.5s) both}
+.brandcard .bcl:hover,.brandcard .bcl:focus-visible{transform:translateY(-3px);border-color:rgba(241,204,89,.6);background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,.06));box-shadow:0 12px 24px -12px rgba(0,0,0,.6)}
+.brandcard .bcl .bi{display:grid;place-items:center;flex:0 0 40px;height:40px;border-radius:12px;color:#071d34;background:linear-gradient(135deg,#f1cc59,#ffe7a0);box-shadow:0 6px 14px -6px rgba(241,204,89,.8);transition:transform .35s cubic-bezier(.3,1.6,.5,1)}
+.brandcard .bcl-channel .bi{background:linear-gradient(135deg,#7fb6ff,#b58cf6);color:#0b1f3f;box-shadow:0 6px 14px -6px rgba(155,108,240,.8)}
+.brandcard .bcl-phone .bi{background:linear-gradient(135deg,#6fe3b5,#bff5dd);color:#07352a;box-shadow:0 6px 14px -6px rgba(111,227,181,.8)}
+.brandcard .bcl:hover .bi{transform:rotate(-8deg) scale(1.08)}
+.brandcard .bcl .bt{flex:1;min-width:0;line-height:1.35}
+.brandcard .bcl small{display:block;font-size:.72em;color:rgba(255,255,255,.66)}
+.brandcard .bcl .bv{display:block;font-size:.98em;direction:ltr;text-align:right;unicode-bidi:isolate;letter-spacing:.02em;white-space:nowrap}
+.brandcard .bcl .ba{opacity:.5;transition:transform .25s,opacity .25s}
+.brandcard .bcl:hover .ba{opacity:1;transform:translateX(-4px)}
+.brandcard .bqr{display:flex;flex-direction:column;align-items:center;gap:6px;text-decoration:none;color:rgba(255,255,255,.75);animation:bcQr .8s cubic-bezier(.2,1.2,.3,1) .45s both}
+.brandcard .bqrbox{position:relative;display:block;width:clamp(128px,17vw,168px);aspect-ratio:1;padding:8px;border-radius:22px;background:#fff;overflow:hidden;
+  box-shadow:0 0 0 4px rgba(255,255,255,.08),0 18px 40px -14px rgba(0,0,0,.7);transition:transform .3s}
+.brandcard .bqrbox svg{display:block}
+.brandcard .bqr:hover .bqrbox{transform:scale(1.04) rotate(-1deg)}
+.brandcard .bqrbox .scan{position:absolute;left:8px;right:8px;height:34px;top:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(155,108,240,0),rgba(155,108,240,.22) 70%,rgba(217,95,174,.85) 96%,rgba(217,95,174,0));animation:bcScan 3.4s cubic-bezier(.5,0,.5,1) 1.3s infinite}
+.brandcard .bqr small{font-size:.72em}
+.brandcard .bcf{position:relative;z-index:1;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:16px;padding-top:12px;border-top:1px dashed rgba(255,255,255,.18);font-size:.8em;color:rgba(255,255,255,.72);animation:bcUp .6s .8s both}
+.brandcard .bsig{display:inline-flex;align-items:center;gap:8px}
+.mono{display:inline-grid;place-items:center;min-width:34px;height:34px;padding:0 6px;border-radius:10px;font-family:Georgia,"Times New Roman",serif;font-style:italic;font-weight:700;font-size:.9em;direction:ltr;color:#071d34;background:linear-gradient(135deg,#f1cc59,#fff0b8)}
+.brandcard .bcopy{font:inherit;font-weight:700;color:#071d34;background:#fff;border:0;border-radius:99px;padding:6px 14px;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.brandcard .bcopy:hover{transform:translateY(-2px);box-shadow:0 8px 18px -8px rgba(0,0,0,.6)}
+.present .brandcard .bct{font-size:1.5em}
+@media (max-width:560px){.brandcard .bcin{grid-template-columns:1fr}.brandcard .bqr{order:-1}.brandcard .bqrbox{width:132px}}
+.dlg .brandcard{margin:0 0 12px}
+.ib.bbtn{background:linear-gradient(135deg,#071d34,#1f5fd6);color:#fff;border-color:transparent;position:relative}
+.ib.bbtn::after{content:"";position:absolute;top:3px;left:3px;width:7px;height:7px;border-radius:50%;background:#f1cc59;animation:bcPing 2.4s ease-out infinite}
+.brandline{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:4px 10px;margin:16px auto 0;padding:8px 14px;border-radius:16px;width:fit-content;max-width:100%;
+  text-decoration:none;color:var(--ink);font-size:.85em;background:linear-gradient(90deg,rgba(31,95,214,.06),rgba(241,204,89,.16),rgba(31,95,214,.06));background-size:200% 100%;border:1px solid rgba(7,29,52,.1);animation:bcSlide 6s linear infinite;transition:transform .2s}
+.brandline:hover{transform:translateY(-2px)}
+.brandline .mono{min-width:28px;height:28px;font-size:.8em}
+.brandline small{flex-basis:100%;text-align:center;color:var(--muted);font-size:.8em}
+@keyframes bcIn{from{opacity:0;transform:translateY(22px) scale(.97)}to{opacity:1;transform:none}}
+@keyframes bcUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes bcQr{from{opacity:0;transform:scale(.6) rotate(-8deg)}to{opacity:1;transform:none}}
+@keyframes bcSpin{to{--bang:360deg}}
+@keyframes bcOrb{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(40px,26px) scale(1.15)}}
+@keyframes bcShine{0%{left:-60%}55%,100%{left:130%}}
+@keyframes bcTw{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:.95;transform:scale(1)}}
+@keyframes bcPing{0%{box-shadow:0 0 0 0 rgba(241,204,89,.7)}80%,100%{box-shadow:0 0 0 9px rgba(241,204,89,0)}}
+@keyframes bcText{0%,100%{background-position:100% 0}50%{background-position:0 0}}
+@keyframes bcScan{0%{transform:translateY(-40px);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateY(170px);opacity:0}}
+@keyframes bcSlide{to{background-position:-200% 0}}
+@media (prefers-reduced-motion:reduce){.brandcard .bspark,.brandcard .bshine,.brandcard .bqrbox .scan{display:none}.brandcard .bct{color:#fff;background:none}}

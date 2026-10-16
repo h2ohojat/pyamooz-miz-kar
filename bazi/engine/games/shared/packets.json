@@ -1,0 +1,9 @@
+[
+  {"name":"state","valid":true,"packet":{"ns":"pyamooz-game","v":1,"kind":"state","session":"fixture","runId":"run","seq":1,"baseRevision":0,"stateSchemaVersion":1,"state":{"moves":1}}},
+  {"name":"result","valid":true,"packet":{"ns":"pyamooz-game","v":1,"kind":"result","session":"fixture","runId":"run","seq":1,"baseRevision":0,"stateSchemaVersion":1,"state":{"moves":2},"resultId":"result-1","outcome":"won","elapsedMs":250,"metrics":{"moves":2}}},
+  {"name":"string sequence","valid":false,"packet":{"ns":"pyamooz-game","v":1,"kind":"state","session":"fixture","runId":"run","seq":"1","baseRevision":0,"stateSchemaVersion":1,"state":{"moves":1}}},
+  {"name":"negative revision","valid":false,"packet":{"ns":"pyamooz-game","v":1,"kind":"state","session":"fixture","runId":"run","seq":1,"baseRevision":-1,"stateSchemaVersion":1,"state":{"moves":1}}},
+  {"name":"array state","valid":false,"packet":{"ns":"pyamooz-game","v":1,"kind":"state","session":"fixture","runId":"run","seq":1,"baseRevision":0,"stateSchemaVersion":1,"state":[1]}},
+  {"name":"unknown schema","valid":false,"packet":{"ns":"pyamooz-game","v":1,"kind":"state","session":"fixture","runId":"run","seq":1,"baseRevision":0,"stateSchemaVersion":2,"state":{"moves":1}}},
+  {"name":"negative metric","valid":false,"packet":{"ns":"pyamooz-game","v":1,"kind":"result","session":"fixture","runId":"run","seq":1,"baseRevision":0,"stateSchemaVersion":1,"state":{"moves":2},"resultId":"result-1","outcome":"won","elapsedMs":250,"metrics":{"moves":-2}}}
+]

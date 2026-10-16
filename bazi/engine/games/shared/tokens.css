@@ -1,0 +1,108 @@
+/*
+ * Design tokens, taken from design/prototype.src.html (the visual reference). Every colour, shadow,
+ * radius and motion value in the site comes from here: components and Tailwind utilities read these
+ * variables, so light and dark themes switch in one place.
+ *
+ * Theme: <html data-theme="light|dark"> is set before first paint by the inline script in
+ * <x-theme-script> (choice saved per visitor: light, dark or auto; "auto" follows the device and
+ * its live changes). Without JavaScript the light theme is used.
+ *
+ * Contrast: every text/background pair in tests/Unit/ContrastTest.php is at least 4.5:1.
+ */
+
+:root {
+    color-scheme: light;
+
+    /* Brand (same in both themes) */
+    --navy: #071d34;
+    --navy-2: #0e2c52;
+    --amber: #f1cc59;
+    --amber-2: #f6dd8f;
+    --reward-top: #f6da80;
+
+    /* Actions */
+    --primary: #1f5fd6;
+    --primary-2: #3d78e8;
+    --btn-top: #3270e0; /* top of the primary button gradient: white text stays above 4.5:1 */
+    --primary-ink: #ffffff;
+    --primary-soft: #eaf0fc;
+    --primary-line: #c9d8f6;
+
+    /* Surfaces and text */
+    --bg: #f5f3ee;
+    --surface: #ffffff;
+    --surface-2: #faf9f6;
+    --ink: #101c30;
+    --ink-2: #34425c;
+    --muted: #5e6679;
+    --line: #e6e2d9;
+    --line-2: #eeebe4;
+
+    /* States */
+    --amber-soft: #fdf5d8;
+    --amber-ink: #6b5310;
+    --success: #0f7a51;
+    --success-soft: #e3f4ec;
+    --warn: #b04e0b;
+    --warn-soft: #fbeadd;
+    --new-soft: #e7f7ff;
+    --new-ink: #0b6f9c;
+
+    /* On dark heroes and banners */
+    --on-dark: #ffffff;
+    --on-dark-2: #d5deec;
+
+    /* Shape */
+    --r-s: 12px;
+    --r-m: 15px;
+    --r-l: 22px;
+    --r-xl: 26px;
+
+    /* Depth */
+    --sh-1: 0 1px 2px rgba(7, 29, 52, 0.05), 0 3px 10px -4px rgba(7, 29, 52, 0.08);
+    --sh-2: 0 1px 2px rgba(7, 29, 52, 0.05), 0 14px 32px -16px rgba(7, 29, 52, 0.28);
+    --sh-3: 0 2px 6px rgba(7, 29, 52, 0.06), 0 30px 60px -28px rgba(7, 29, 52, 0.45);
+
+    /* Motion (docs/02-ui-ux-motion.fa.md §3.1) */
+    --dur-1: 120ms;
+    --dur-2: 220ms;
+    --dur-3: 360ms;
+    --dur-4: 600ms;
+    --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+    --spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --inout: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+:root.dark,
+:root[data-theme='dark'] {
+    color-scheme: dark;
+
+    --bg: #050f1b;
+    --surface: #0b1a2e;
+    --surface-2: #0a1728;
+    --ink: #eaf0f8;
+    --ink-2: #c3cddc;
+    --muted: #93a2b8;
+    --line: #1b3150;
+    --line-2: #152843;
+
+    --primary: #6e9bff;
+    --primary-2: #8fb2ff;
+    --btn-top: #8fb2ff;
+    --primary-ink: #071d34;
+    --primary-soft: #13294a;
+    --primary-line: #274a80;
+
+    --amber-soft: #2a2614;
+    --amber-ink: #f1cc59;
+    --success: #3ccb8f;
+    --success-soft: #0f2e24;
+    --warn: #f2994a;
+    --warn-soft: #33200f;
+    --new-soft: #0b2a3a;
+    --new-ink: #7fd3f7;
+
+    --sh-1: 0 1px 2px rgba(0, 0, 0, 0.35);
+    --sh-2: 0 14px 32px -16px rgba(0, 0, 0, 0.7);
+    --sh-3: 0 30px 60px -28px rgba(0, 0, 0, 0.8);
+}

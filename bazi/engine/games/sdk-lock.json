@@ -1,0 +1,17 @@
+{
+  "source": "https://github.com/h2ohojat/pyamooz_newversion",
+  "commit": "467c194d3810d33bd092cd9311d0264fa904f7e4",
+  "bridge": {
+    "ns": "pyamooz-game",
+    "v": 1
+  },
+  "files": {
+    "shared/protocol.js": "0a4d65c2660350d1b0fc2b2fd59ebf3f1268a603b6a55568db47c847907ea3ba",
+    "shared/sdk.js": "e0ab7e6c80fcd755d7a3243382361a7e602e5d5cc7bbd90efb75008b40b1abfd",
+    "shared/style.css": "57d66d30e2039dc50ee7b90ef419ac8cc7c4894ca916a08f75983bc85b7f0e2a",
+    "shared/ui.js": "e1f486ba49b1ef4aa9b9b519e71eb840507d504995868ac90713dd86e0cad0ea",
+    "shared/legacy-clock.js": "dfdeb95fc1801a9d4eeec5271999ac6211e3ccb7e50ee80c2aad01709df8ea31",
+    "shared/packets.json": "35f68310d734c03adf94cb9dd59bbdb2e85d815f83e0a181850475bd8e27764f",
+    "shared/tokens.css": "ae58e61c73bb00ae8a6cf99d7e1ba0b095d0cf3befcdca5048ae874d6d5ae872"
+  }
+}

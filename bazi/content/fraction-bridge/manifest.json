@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "game",
+  "id": "fraction-bridge",
+  "title": "پل کسرها؛ سفر پویا به آن سوی دره",
+  "version": 3,
+  "bridge": {"ns": "pyamooz-game", "v": 1},
+  "stateSchemaVersion": 1,
+  "mode": "levels",
+  "ruleset": "fraction-bridge-1",
+  "levels": [
+    {"id": "meadow", "title": "دشت نیمه‌ها"},
+    {"id": "forest", "title": "جنگل چهارم‌ها"},
+    {"id": "canyon", "title": "درهٔ سوم‌ها"},
+    {"id": "cave", "title": "غار هشتم‌ها"},
+    {"id": "castle", "title": "قلعهٔ کسرها"}
+  ],
+  "capabilities": ["state", "resume", "result", "pause"],
+  "metrics": [
+    {"id": "score", "label": "امتیاز سفر", "type": "integer", "min": 0, "max": 100000, "best": "max", "recordOn": ["won"]},
+    {"id": "bridges", "label": "پل‌های دقیق", "type": "integer", "min": 0, "max": 16, "best": "max", "recordOn": ["won"]},
+    {"id": "errors", "label": "تختهٔ ناجور", "type": "integer", "min": 0, "max": 1000000, "best": "min", "recordOn": ["won"]},
+    {"id": "coins", "label": "سکه", "type": "integer", "min": 0, "max": 10000, "best": "max", "recordOn": ["won"]},
+    {"id": "seconds", "label": "زمان فعال", "type": "integer", "min": 0, "max": 4294967, "best": "none", "unit": "ثانیه"}
+  ]
+}

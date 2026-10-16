@@ -1,0 +1,130 @@
+{
+  "note": "Snapshot of existing repository files; no engine or SDK changes.",
+  "files": [
+    {
+      "source": "_src/build-common.js",
+      "file": "engine/build-common.js",
+      "sha256": "3cbcbd30b8384ecdc0853786b77683b04eac3530e3367757eddd68aa5392f8de"
+    },
+    {
+      "source": "_src/games/build.js",
+      "file": "engine/games/build.js",
+      "sha256": "c020ebd4d80102054e8195757ecdbe8684faad5b03f0d506ae882cc55ce288c0"
+    },
+    {
+      "source": "_src/games/manifest.js",
+      "file": "engine/games/manifest.js",
+      "sha256": "5acaa0a37475957d2ac6c9e02f5dbf3fb99b8605f4b7e8d3623811ae16cbceea"
+    },
+    {
+      "source": "_src/games/sdk-lock.json",
+      "file": "engine/games/sdk-lock.json",
+      "sha256": "aa5b3a24887f7ba73b5356a4d6b0b6e75e8245905aff937e40f0caa525b23018"
+    },
+    {
+      "source": "_src/games/shared/legacy-clock.js",
+      "file": "engine/games/shared/legacy-clock.js",
+      "sha256": "dfdeb95fc1801a9d4eeec5271999ac6211e3ccb7e50ee80c2aad01709df8ea31"
+    },
+    {
+      "source": "_src/games/shared/packets.json",
+      "file": "engine/games/shared/packets.json",
+      "sha256": "35f68310d734c03adf94cb9dd59bbdb2e85d815f83e0a181850475bd8e27764f"
+    },
+    {
+      "source": "_src/games/shared/protocol.js",
+      "file": "engine/games/shared/protocol.js",
+      "sha256": "0a4d65c2660350d1b0fc2b2fd59ebf3f1268a603b6a55568db47c847907ea3ba"
+    },
+    {
+      "source": "_src/games/shared/sdk.js",
+      "file": "engine/games/shared/sdk.js",
+      "sha256": "e0ab7e6c80fcd755d7a3243382361a7e602e5d5cc7bbd90efb75008b40b1abfd"
+    },
+    {
+      "source": "_src/games/shared/style.css",
+      "file": "engine/games/shared/style.css",
+      "sha256": "57d66d30e2039dc50ee7b90ef419ac8cc7c4894ca916a08f75983bc85b7f0e2a"
+    },
+    {
+      "source": "_src/games/shared/tokens.css",
+      "file": "engine/games/shared/tokens.css",
+      "sha256": "ae58e61c73bb00ae8a6cf99d7e1ba0b095d0cf3befcdca5048ae874d6d5ae872"
+    },
+    {
+      "source": "_src/games/shared/ui.js",
+      "file": "engine/games/shared/ui.js",
+      "sha256": "e1f486ba49b1ef4aa9b9b519e71eb840507d504995868ac90713dd86e0cad0ea"
+    },
+    {
+      "source": "fonts/Vazirmatn-Variable.woff2",
+      "file": "fonts/Vazirmatn-Variable.woff2",
+      "sha256": "4e3fa217d38fdafc1fea4414ceb58ca5e662cf0ab5fa735a8c8c20e8b42cad92"
+    },
+    {
+      "source": "fonts/OFL.txt",
+      "file": "fonts/OFL.txt",
+      "sha256": "17e355067c8284f47743a1ee3b1ef7ff684ff0601eda357f9353b10b3016ab31"
+    },
+    {
+      "source": "docs/PYAMOOZ_CONTENT_CONTRACT.md",
+      "file": "docs/PYAMOOZ_CONTENT_CONTRACT.md",
+      "sha256": "f2607198ef9c3cc1c3f525a51140c0c701ce884f63b5978f2cf7934434c28283"
+    },
+    {
+      "source": "docs/AUTHORING_GUIDE.md",
+      "file": "docs/AUTHORING_GUIDE.md",
+      "sha256": "bbc21064d1e5829c947fa67a1cd78069b52a9b9fb29d5736f28cfb5eb0176f7b"
+    },
+    {
+      "source": "docs/bridge.md",
+      "file": "docs/bridge.md",
+      "sha256": "6d847ce313daaacb34661b269d832726dba5e04cb795970c3c4d91730e62dec4"
+    },
+    {
+      "source": "docs/PYAMOOZ_GAMES_IMPLEMENTATION_PLAN.md",
+      "file": "docs/PYAMOOZ_GAMES_IMPLEMENTATION_PLAN.md",
+      "sha256": "f45960a9655240c7fc655a98f681153c31d4ebacc9a19e540481762d9797729a"
+    },
+    {
+      "source": "docs/fraction-bridge.md",
+      "file": "docs/fraction-bridge.md",
+      "sha256": "18ad3e2d9036fb61a47610cbdf1cee3602ceabfa615b62024993d5f1aa115073"
+    },
+    {
+      "source": "_src/games/memory-fixture/index.html",
+      "file": "content/my-game/index.html",
+      "sha256": "676f3cef7cbec2a83deca713cbc562a584506b477f3a41229bd88ef9abd1138a"
+    },
+    {
+      "source": "_src/games/memory-fixture/game.js",
+      "file": "content/my-game/game.js",
+      "sha256": "9a23b1df602aac89f3aa67becf9e16f16552ce503c96e987b2b5c59421858e77"
+    },
+    {
+      "source": "_src/games/fraction-bridge/manifest.json",
+      "file": "content/fraction-bridge/manifest.json",
+      "sha256": "8ed8c8deacd010997e6dc0b2fc81b92af9ba3ea1e5aa4e296b99d11ac2c820a2"
+    },
+    {
+      "source": "_src/games/fraction-bridge/index.html",
+      "file": "content/fraction-bridge/index.html",
+      "sha256": "cadff61a9788e53bb90e90b5e37ee1b438b94cf7f8f4e387bafe8788151e7a5e"
+    },
+    {
+      "source": "_src/games/fraction-bridge/game.js",
+      "file": "content/fraction-bridge/game.js",
+      "sha256": "f7128ffb3717804826522311768a942b680cf96d4f3773ffe6973f222489a845"
+    },
+    {
+      "source": "_src/games/fraction-bridge/logic.js",
+      "file": "content/fraction-bridge/logic.js",
+      "sha256": "20dda0434ddce6c7140da0064bcaef8da171460bc3c3116124916d1cb6a380d8"
+    },
+    {
+      "source": "_src/games/fraction-bridge/README.md",
+      "file": "content/fraction-bridge/README.md",
+      "sha256": "38c1f928d992ce87a1f14fdb8fe2ba795c56075a5598a100ad258f47aa995a13"
+    }
+  ]
+}

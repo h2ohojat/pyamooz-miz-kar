@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "game",
+  "id": "my-game",
+  "title": "بازی من",
+  "version": 1,
+  "bridge": {
+    "ns": "pyamooz-game",
+    "v": 1
+  },
+  "stateSchemaVersion": 1,
+  "mode": "puzzle",
+  "capabilities": [
+    "state",
+    "resume",
+    "result",
+    "pause"
+  ],
+  "metrics": [
+    {
+      "id": "moves",
+      "label": "تعداد تلاش",
+      "type": "integer",
+      "min": 0,
+      "max": 1000000,
+      "best": "min",
+      "recordOn": [
+        "won"
+      ]
+    }
+  ]
+}

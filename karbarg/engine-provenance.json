@@ -1,0 +1,80 @@
+{
+  "note": "Snapshot of existing repository files; no engine or SDK changes.",
+  "files": [
+    {
+      "source": "_src/build.js",
+      "file": "engine/build.js",
+      "sha256": "872330f463cc5bd91959da0828a9234f86369639b3c5b29276251ebe5bed79e6"
+    },
+    {
+      "source": "_src/build-common.js",
+      "file": "engine/build-common.js",
+      "sha256": "3cbcbd30b8384ecdc0853786b77683b04eac3530e3367757eddd68aa5392f8de"
+    },
+    {
+      "source": "_src/kz-meta.js",
+      "file": "engine/kz-meta.js",
+      "sha256": "5a6b227adc2d2063f18d0202263b9ed08717505f01d8035e41db64de4cf8d9ba"
+    },
+    {
+      "source": "_src/engine.js",
+      "file": "engine/engine.js",
+      "sha256": "4f2c16d8b92a0ce4708839710a1645016ef3512fee1faf3631d782a069cab347"
+    },
+    {
+      "source": "_src/engine.css",
+      "file": "engine/engine.css",
+      "sha256": "5360fbecd58f9b959a9aea1e715f9854d0010d7c696d562731c6a0850d4c82a3"
+    },
+    {
+      "source": "_src/brand.js",
+      "file": "engine/brand.js",
+      "sha256": "59b7b8e64dcfc73924d679a5b45694cf74d7c57e6ad034b8d71a8496435f7105"
+    },
+    {
+      "source": "_src/brand-qr.js",
+      "file": "engine/brand-qr.js",
+      "sha256": "29f3bb29c77806b4992df2511b6f51cb11483fc79e426354d6ebf24700d57ac3"
+    },
+    {
+      "source": "_src/brand.css",
+      "file": "engine/brand.css",
+      "sha256": "24fb8fe076385fe9d32e293cd38ad9bd95edcbd7d91b050831eface5d747c82b"
+    },
+    {
+      "source": "fonts/Vazirmatn-Variable.woff2",
+      "file": "fonts/Vazirmatn-Variable.woff2",
+      "sha256": "4e3fa217d38fdafc1fea4414ceb58ca5e662cf0ab5fa735a8c8c20e8b42cad92"
+    },
+    {
+      "source": "fonts/OFL.txt",
+      "file": "fonts/OFL.txt",
+      "sha256": "17e355067c8284f47743a1ee3b1ef7ff684ff0601eda357f9353b10b3016ab31"
+    },
+    {
+      "source": "docs/PYAMOOZ_CONTENT_CONTRACT.md",
+      "file": "docs/PYAMOOZ_CONTENT_CONTRACT.md",
+      "sha256": "f2607198ef9c3cc1c3f525a51140c0c701ce884f63b5978f2cf7934434c28283"
+    },
+    {
+      "source": "docs/AUTHORING_GUIDE.md",
+      "file": "docs/AUTHORING_GUIDE.md",
+      "sha256": "bbc21064d1e5829c947fa67a1cd78069b52a9b9fb29d5736f28cfb5eb0176f7b"
+    },
+    {
+      "source": "docs/bridge.md",
+      "file": "docs/bridge.md",
+      "sha256": "6d847ce313daaacb34661b269d832726dba5e04cb795970c3c4d91730e62dec4"
+    },
+    {
+      "source": "docs/PYAMOOZ_GAMES_IMPLEMENTATION_PLAN.md",
+      "file": "docs/PYAMOOZ_GAMES_IMPLEMENTATION_PLAN.md",
+      "sha256": "f45960a9655240c7fc655a98f681153c31d4ebacc9a19e540481762d9797729a"
+    },
+    {
+      "source": "_src/webinar-besaz-biamooz/worksheet.css",
+      "file": "worksheet.css",
+      "sha256": "0900a2a8c34e2685ca795b356b188286f3dfe7c089172fc363d355599c5ff0b0"
+    }
+  ]
+}
